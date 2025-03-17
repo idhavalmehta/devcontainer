@@ -1,7 +1,10 @@
 {
-	"name": "Test",
+	"name": "devcontainer",
 	"dockerComposeFile": "../compose.yaml",
 	"service": "devcontainer",
+	"workspaceFolder": "/workspace",
+	"remoteUser": "vscode",
+	"shutdownAction": "stopCompose",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -49,7 +52,5 @@
 				}
 			}
 		}
-	},
-	"workspaceFolder": "/workspace",
-	"remoteUser": "vscode"
+	}
 }
