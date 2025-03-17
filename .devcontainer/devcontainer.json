@@ -5,8 +5,49 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-azuretools.vscode-docker"
-			]
+				"ms-azuretools.vscode-docker",
+				"DavidAnson.vscode-markdownlint",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"mikestead.dotenv",
+				"EditorConfig.EditorConfig",
+				"Orta.vscode-jest",
+				"redhat.vscode-yaml"
+			],
+			"settings": {
+				"editor.minimap.enabled": false,
+				"breadcrumbs.enabled": false,
+				"editor.glyphMargin": false,
+				"explorer.decorations.badges": false,
+				"explorer.decorations.colors": false,
+				"editor.fontLigatures": true,
+				"git.enableSmartCommit": true,
+				"window.commandCenter": true,
+				"editor.renderWhitespace": "none",
+				"markdown.validate.enabled": true,
+				"markdown.updateLinksOnFileMove.enabled": "prompt",
+				"workbench.startupEditor": "none",
+				"editor.formatOnPaste": true,
+				"git.autofetch": true,
+				"[markdown]": {
+					"editor.wordWrap": "on"
+				},
+				"[json]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[jsonc]": {
+					"editor.defaultFormatter": "vscode.json-language-features"
+				},
+				"[html]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[javascript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[typescript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				}
+			}
 		}
 	},
 	"workspaceFolder": "/workspace",
