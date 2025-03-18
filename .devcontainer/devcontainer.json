@@ -1,5 +1,4 @@
 {
-	"name": "devcontainer",
 	"dockerComposeFile": "../compose.yaml",
 	"service": "devcontainer",
 	"workspaceFolder": "/workspace",
@@ -12,26 +11,29 @@
 				"DavidAnson.vscode-markdownlint",
 				"dbaeumer.vscode-eslint",
 				"esbenp.prettier-vscode",
-				"mikestead.dotenv",
 				"EditorConfig.EditorConfig",
 				"Orta.vscode-jest",
-				"redhat.vscode-yaml"
+				"redhat.vscode-yaml",
+				"eamodio.gitlens",
+				"piotrpalarz.vscode-gitignore-generator",
+				"GitHub.copilot"
 			],
 			"settings": {
-				"editor.minimap.enabled": false,
-				"breadcrumbs.enabled": false,
-				"editor.glyphMargin": false,
-				"explorer.decorations.badges": false,
-				"explorer.decorations.colors": false,
-				"editor.fontLigatures": true,
-				"git.enableSmartCommit": true,
-				"window.commandCenter": true,
-				"editor.renderWhitespace": "none",
-				"markdown.validate.enabled": true,
-				"markdown.updateLinksOnFileMove.enabled": "prompt",
-				"workbench.startupEditor": "none",
-				"editor.formatOnPaste": true,
+				// "editor.minimap.enabled": false,
+				// "breadcrumbs.enabled": false,
+				// "editor.glyphMargin": false,
+				// "explorer.decorations.badges": false,
+				// "explorer.decorations.colors": false,
+				// "editor.fontLigatures": true,
+				// "git.enableSmartCommit": true,
+				// "window.commandCenter": true,
+				// "editor.renderWhitespace": "none",
+				// "markdown.validate.enabled": true,
+				// "markdown.updateLinksOnFileMove.enabled": "prompt",
+				// "workbench.startupEditor": "none",
+				// "editor.formatOnPaste": true,
 				"git.autofetch": true,
+				"gitlens.plusFeatures.enabled": false,
 				"[markdown]": {
 					"editor.wordWrap": "on"
 				},
@@ -48,6 +50,12 @@
 					"editor.defaultFormatter": "esbenp.prettier-vscode"
 				},
 				"[typescript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[javascriptreact]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[typescriptreact]": {
 					"editor.defaultFormatter": "esbenp.prettier-vscode"
 				}
 			}
