@@ -19,19 +19,6 @@
 				"GitHub.copilot"
 			],
 			"settings": {
-				// "editor.minimap.enabled": false,
-				// "breadcrumbs.enabled": false,
-				// "editor.glyphMargin": false,
-				// "explorer.decorations.badges": false,
-				// "explorer.decorations.colors": false,
-				// "editor.fontLigatures": true,
-				// "git.enableSmartCommit": true,
-				// "window.commandCenter": true,
-				// "editor.renderWhitespace": "none",
-				// "markdown.validate.enabled": true,
-				// "markdown.updateLinksOnFileMove.enabled": "prompt",
-				// "workbench.startupEditor": "none",
-				// "editor.formatOnPaste": true,
 				"git.autofetch": true,
 				"gitlens.plusFeatures.enabled": false,
 				"[markdown]": {
